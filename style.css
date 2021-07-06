@@ -1,0 +1,113 @@
+body {
+    font-family: Helvetica, Arial, sans-serifc;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+table, th, table td, table, #wrapper-table {
+    border: 1px solid black;
+    font-size:12px;
+}
+
+#wrapper-table td {
+    border:0;
+}
+
+#wrapper-table {
+    border-radius: 5px;
+    margin:0;
+}
+
+#wrapper-left {
+    width:130px;
+    text-align: center;
+    vertical-align: top;
+    padding:0 !important;
+    padding-top:5px;
+}
+
+#wrapper-center {
+    text-align: center;
+    border-right:0;
+    vertical-align: top;
+}
+
+.tickets-table{
+    border:0;
+}
+
+.tickets-table td{
+    text-align: left;
+    border:0;
+}
+
+#wrapper-right {
+    text-align: center;
+    vertical-align: top;
+    padding:0 !important;
+    padding-top:5px;
+    width:200px;
+    border-left:0;
+}
+
+#wrapper-right img {
+    margin:0;
+}
+
+.service-about {
+    padding:8px !important;
+    font-weight: bold;
+}
+
+.service-name {
+    font-size:15px;
+}
+
+.event-name {
+    font-size: 13px;
+    font-weight: bold;
+    padding:10px;
+}
+
+.event-time {
+    font-size: 15px;
+    font-weight: bold;
+    padding:10px;
+}
+
+.tickets-header {
+    font-weight: bold;
+    padding: 2px;
+}
+
+.tickets-total td {
+    border-top: 2px solid #000;
+}
+
+.additional-info {
+    vertical-align: top;
+    text-align: left;
+    padding:2px;
+}
+
+.additional-info table td,.additional-info table{
+    border:0;
+    padding:4px;
+}
+
+.vertical-text span{
+    display: block;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
